@@ -1,0 +1,2 @@
+# xor-qrng
+Quantis Random Number Generator (QRNG) comes with a C++ example to genrate random bytes. The c++ file in this repository has some added features, such as XOR-filtering, a siwtch to toggle between random bytes or bits, and a switch to generate pseudo-randomness instead of quatum based randomness. Additionally some statistics can be performed, to check mean, z-score and probablility value of the generated bits. 
