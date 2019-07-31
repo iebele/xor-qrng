@@ -276,7 +276,7 @@ if ( stats == true ){
         t_stdev = sqrt ( (bytesNum) / 0.5 ); // Jahn
         zscore =  ( ones - mu ) /  t_stdev;  // Jahn
         pvalue = ztop( zscore );
-        chi2 = zscore*zscore;
+        chi2 = chi2+(zscore*zscore);
 
    }
     // BYTE STATS 
