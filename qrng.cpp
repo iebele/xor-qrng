@@ -205,12 +205,7 @@ static void printRandomData(QuantisDeviceType deviceType,
     buffer = quantis.Read(bytesNum);	
   }
 
-
-
-    // Display buffer in HEX format
-    //  cout << endl << "Displaying " << bytesNum << " random bytes in HEX format:" << endl;
   string::iterator it = buffer.begin();
-
   while (it != buffer.end())
   {
    int i = 0;
@@ -237,7 +232,6 @@ static void printRandomData(QuantisDeviceType deviceType,
     count = count + a;
    } 
    else {
-      int b = 85 ;
       if ( a <= 127 ){
          fprintf ( stdout , "0" );
          count++;
