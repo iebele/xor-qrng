@@ -210,11 +210,11 @@ static void printRandomData(QuantisDeviceType deviceType,
   {
    int i = 0;
    char a = static_cast<int>(*it++);
-	// 01010101 = 0x55
-        // 10101010 = 0xAA
-        // ^ = XOR
-	if ( xorr == true )  // XOR bias
-  {
+   // 01010101 = 0x55
+   // 10101010 = 0xAA
+   // ^ = XOR
+   if ( xorr == true )  // XOR bias
+   {
     if ( i % 2 ){
       a = 0x55  ^  a ;
     }
