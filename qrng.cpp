@@ -85,7 +85,7 @@
   double sig = 1.0;
   double mmu = 0.0;
   double tval = (z - mmu ) / sig;
-  return (0.398942280401432678/sig) * exp( -0.5 * ( tval*tval ) );
+  return 0.398942280401432678 * exp(-0.5*(z*z));
 
 
 }
